@@ -1,0 +1,56 @@
+.wrapper-chart{
+    padding: 20px 0px;
+}
+.chart-div {
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 2%;
+    color: #000;
+    
+}
+
+.top-chart {
+    display: flex;
+
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+
+}
+#headline{
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.dropdown{
+    display: flex;
+}
+.precipitation, .next-day{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #F1F1F1;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.precipitation h4, span{
+    display: inline;
+    height: min-content;
+    color: #a0a0a0;
+    font-size: .8rem;
+}
+.next-day h4, span{
+    height: min-content;
+    color: #5D5D5D;
+    font-size: .8rem;
+}
+
+.bottom-chart, .paper-chart{
+    max-height: 250px;
+}

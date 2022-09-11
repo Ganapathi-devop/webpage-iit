@@ -1,0 +1,30 @@
+.temp-widget{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+.temp-widget span{
+    margin: 5px;
+}
+.div-temp{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem !important;
+}
+.div-temp span{
+    font-size: 5rem;
+}
+.div-weather{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}

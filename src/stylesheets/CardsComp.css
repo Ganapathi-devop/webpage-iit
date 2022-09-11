@@ -1,0 +1,138 @@
+.wrapper-cards {
+    max-height: 126px;
+    padding: 40px 10px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas:
+        ". . ."
+        ". . .";
+}
+
+.card {
+    padding: 10px;
+    border-radius: 15px;
+    color: #000;
+    background-color: #fff;
+}
+
+.utilities {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.water-drops {
+    max-width: 36px;
+    background-color: #5C9CE5;
+    border-radius: 15%;
+    padding: 2px;
+    padding-top: 4px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#water-droplet1 {
+    z-index: 1;
+}
+
+#water-droplet2 {
+    position: relative;
+    z-index: 0;
+    top: -7px;
+    left: -13px;
+    font-size: 1.2rem;
+}
+
+#humidity-percent,
+#precipitation,
+#uv,
+#temp,
+#rain {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.progress-div {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.progress-good,
+.progress-normal,
+.progress-bad {
+    width: 33.33%;
+    padding: 5px;
+}
+
+.progress-bar {
+    height: 10px !important;
+    border-radius: 10px;
+}
+.uv-progress-div, .precipitation-progress-div{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.uv{
+    width: 18%;
+}
+.precipitations{
+    width: 10%;
+    font-size: 1rem;
+    color: #bebebe;
+    margin: 1px;
+}
+.temp-progress-div, .rain-progress-div{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.percentage-temp-progress, .percentage-rain-progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+}
+.progress-bar-temp{
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #d7d7d7;
+}
+.progress-temp{
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #A7CAED;
+}
+.progress-bar-rain{
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #d7d7d7;
+}
+.progress-rain{
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #A7CAED;
+}
