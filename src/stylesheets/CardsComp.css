@@ -1,6 +1,7 @@
 .wrapper-cards {
+    width: 100%;
     max-height: 126px;
-    padding: 40px 10px;
+    padding: 20px 10px;
     padding-bottom: 0px;
     display: grid;
     grid-auto-columns: 1fr;
