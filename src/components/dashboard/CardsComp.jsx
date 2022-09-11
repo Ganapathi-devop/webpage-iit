@@ -1,5 +1,6 @@
 import { Box, LinearProgress } from "@mui/material";
 import "../../stylesheets/CardsComp.css";
+import speedometer from '../../speedometer.png'
 
 function CardsComp() {
   return (
@@ -60,6 +61,7 @@ function CardsComp() {
             <span class="material-icons-outlined">air</span>
           </div>
         </div>
+        <img src={speedometer} alt="" srcset="" />
       </div>
       <div className="card" id="precipitation">
         <div className="utilities">
