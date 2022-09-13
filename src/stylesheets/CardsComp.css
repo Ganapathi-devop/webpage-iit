@@ -19,7 +19,9 @@
     color: #000;
     background-color: #fff;
 }
-
+#wind-card{
+    text-align: center;
+}
 .utilities {
     display: flex;
     flex-direction: row;

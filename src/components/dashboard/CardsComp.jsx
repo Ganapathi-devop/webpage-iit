@@ -61,7 +61,7 @@ function CardsComp() {
             <span class="material-icons-outlined">air</span>
           </div>
         </div>
-        <img src={speedometer} alt="" srcset="" />
+        <img id="speedometer-img" src={speedometer} alt="" srcset="speedometer img" />
       </div>
       <div className="card" id="precipitation">
         <div className="utilities">
